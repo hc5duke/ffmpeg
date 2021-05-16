@@ -40,7 +40,7 @@ func TestParseSingleFrameBadData(t *testing.T) {
 }
 
 func TestNewMetadata(t *testing.T) {
-	filename := "./fixtures/time.txt"
+	filename := "../fixtures/time.txt"
 	f, _ := os.Open(filename)
 	r := bufio.NewReader(f)
 
